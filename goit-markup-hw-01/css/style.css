@@ -1,0 +1,322 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.main-book {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background-color: #2f303a;
+
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* ---------------------Header-------------------------------------*/
+
+.header-navigation {
+  text-align: left;
+  display: flex;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ececec;
+}
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  color: #000;
+  text-align: left;
+}
+.header-list {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  line-height: 100%;
+  text-align: inherit;
+  vertical-align: Top;
+  letter-spacing: 2%;
+  fill: Solid;
+  color: #212121;
+  word-spacing: 30px;
+}
+.header-item {
+  font-family: Roboto, sans-serif;
+  display: inline-flex;
+  font-size: 14px;
+  line-height: 1.14;
+  line-height: 100%;
+  text-align: inherit;
+  vertical-align: Top;
+  letter-spacing: 2%;
+  fill: Solid;
+  color: #212121;
+}
+
+.header-contact {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  line-height: 100%;
+  text-align: right;
+  display: flex;
+  vertical-align: top;
+  letter-spacing: 2%;
+  color: #2196f3;
+  justify-content: flex-end;
+}
+
+.header-mail {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+.header-tel {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.main-logo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #ffffff;
+}
+.main-btn {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: block;
+  margin: 0 auto;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+/*---------------------------наші переваги--------------*/
+.logo {
+  text-align: center;
+  color: #f5f5f5;
+}
+/*.background{
+    background: #F5F5F5;
+    
+}*/
+.main-list {
+  vertical-align: top;
+  display: flex;
+  justify-content: space-around;
+}
+.logot {
+  width: 270px;
+  height: 16px;
+  left: 215px;
+  top: 774px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+  vertical-align: top;
+}
+.plogot {
+  width: 270px;
+  height: 72px;
+  left: 215px;
+  top: 800px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/*------------------------------Чи займаємося-----------------------------*/
+.logo-logo {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.comp {
+  display: flex;
+  justify-content: space-between;
+}
+/*-------------Наша команда-------------------*/
+.Komanda {
+  background: #f5f4fa;
+}
+.Comanda {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.Kok {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.Comandaa {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.Worker {
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1632px;
+
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.Work {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.Cloga {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+.footer1 {
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 2094px;
+  background: #2f303a;
+}
+.header-logos {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+  color: #000;
+  text-align: left;
+}
+.map {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.contacts {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.distance {
+  align-items: center;
+}
+
+/*--------------------------------Portfolio-------------------*/
+.Perelik {
+  color: #ffffff;
+}
+.Usi {
+  display: flex;
+  justify-content: center;
+}
+.mil {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 50px;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.orange {
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  text-align: start;
+}
+.orange1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
